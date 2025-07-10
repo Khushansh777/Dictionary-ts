@@ -17,7 +17,7 @@ A modern, responsive dictionary web app built with **Vite**, **TypeScript**, and
 
 1. **Clone the repo:**
    ```sh
-   git clone https://github.com/yourusername/Dictionary-ts.git
+   git clone https://github.com/khushansh777/Dictionary-ts.git
    cd Dictionary-ts
    ```
 2. **Install dependencies:**
