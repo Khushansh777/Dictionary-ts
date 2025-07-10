@@ -2,10 +2,6 @@ let apiUrl:string =  'https://api.dictionaryapi.dev/api/v1/entries/en/running';
 //initialization of variables
 const inputBar = document.querySelector('#wordInput') as HTMLInputElement;
 const submitBtn =  document.querySelector('button') as HTMLButtonElement;
-const wordText = document.querySelector('#wordText') as HTMLElement;
-const phonetic = document.querySelector('#wordPhonetic') as HTMLElement;
-const pos = document.querySelector('#wordPOS') as HTMLElement;
-const wordSynonyms = document.querySelector('#wordSynonyms') as HTMLElement;
 const sectionCard = document.querySelector('#definitionCard') as HTMLElement
 
 const fetchData = async (key:string)=> {
