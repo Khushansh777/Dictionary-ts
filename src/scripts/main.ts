@@ -31,8 +31,7 @@ submitBtn.addEventListener('click', async (e) => {
             const data = await fetchData(apiUrl);
             if(data){
                 sectionCard.innerHTML = 
-`<section class="definition-card" id="definitionCard" aria-live="polite">
-  <div class="word-main">
+`  <div class="word-main">
     <span class="word-text" id="wordText">${data[0].word}</span>
     <span class="word-phonetic" id="wordPhonetic">${data[0].phonetic ? '/' + data[0].phonetic + '/' : ''}</span>
   </div>
