@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dictionary App</title>
+  <!-- Remove the hardcoded CSS link - Vite will handle this -->
+  <script type="module" crossorigin src="/dictionart-ts/assets/index-CB_TI2il.js"></script>
+</head>
+<body>
+  <div id="app">
+    <div class="dictionary-bg"></div>
+  <main class="dictionary-container" aria-label="Dictionary">
+    <div class="dictionary-header">
+      <div>
+        <div class="dictionary-title">Dictionary</div>
+        <div class="dictionary-subtitle">Find definitions, synonyms, and more!</div>
+      </div>
+    </div>
+    <form class="dictionary-search" id="searchForm" autocomplete="off">
+      <input type="text" id="wordInput" placeholder="Enter a word..." aria-label="Word to search" required />
+      <button type="submit">Search</button>
+    </form>
+  <section class="definition-card" id="definitionCard" aria-live="polite">
+
+    <footer class="dictionary-footer">
+      <small>Made with ❤️ | <a href="https://github.com/" target="_blank" rel="noopener">Source</a></small>
+    </footer>
+  </main>
+  </div>
+  
+</body>
+</html>
