@@ -1,6 +1,12 @@
-// vite.config.ts
+
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-    base: '/dictionart-ts/', // Match your repository name exactly
+  base: '/Dictionary-ts/', // Make sure this matches your GitHub repository name
+  build: {
+    outDir: 'dist',
+    rollupOptions: {
+      input: 'index.html', // Make sure this points to your root index.html
+    },
+  },
 });

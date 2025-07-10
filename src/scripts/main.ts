@@ -1,3 +1,4 @@
+import '../style.css';
 let apiUrl:string =  'https://api.dictionaryapi.dev/api/v1/entries/en/running';
 //initialization of variables
 const inputBar = document.querySelector('#wordInput') as HTMLInputElement;
