@@ -141,14 +141,15 @@ body {
 .word-main {
   display: flex;
   align-items: baseline;
-  gap: 0.7rem;
-  font-size: 1.3rem;
-  font-weight: 600;
+  gap: 0.8rem;
+  font-size: 1.5rem;
+  font-weight: 700;
   color: #2d3748;
+  margin-bottom: 0.2rem;
 }
 
 .word-phonetic {
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #6366f1;
   font-style: italic;
   font-weight: 400;
@@ -159,27 +160,58 @@ body {
   gap: 1.2rem;
   font-size: 1rem;
   color: #64748b;
+  margin-bottom: 0.2rem;
 }
 
 .word-pos {
-  font-weight: 500;
-  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 0.98rem;
+  color: #475569;
 }
 
 .word-example {
   font-style: italic;
-  color: #475569;
+  color: #94a3b8;
+}
+
+.word-meaning {
+  margin: 0.7rem 0 0.5rem 0;
+  font-size: 1.12rem;
+  color: #334155;
+  font-style: normal;
+  border-top: 1px solid #e2e8f0;
+  padding-top: 0.6rem;
 }
 
 .word-synonyms {
-  margin-top: 0.3rem;
-  font-size: 0.98rem;
+  margin-top: 0.5rem;
+  font-size: 1rem;
   color: #6366f1;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.4rem;
 }
 
 .word-synonyms strong {
   color: #334155;
   font-weight: 600;
+  margin-right: 0.4rem;
+}
+
+.synonym-tag {
+  background: #e0e7ef;
+  color: #6366f1;
+  border-radius: 6px;
+  padding: 0.1em 0.6em;
+  font-size: 0.98em;
+  margin-right: 0.2em;
+  transition: background 0.2s;
+  cursor: pointer;
+}
+
+.synonym-tag:hover {
+  background: #c7d2fe;
 }
 
 .dictionary-footer {
